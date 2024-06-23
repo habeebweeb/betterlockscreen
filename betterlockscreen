@@ -155,7 +155,7 @@ lock() {
     $i3lockcolor_bin \
         ${image:+-i "$image"} \
         --color "$bgcolor" \
-        ${screen:+-i "$display_on"} \
+        ${display_on:+-S "$display_on"} \
         --ind-pos="x+310:y+h-80" \
         --radius=25 \
         --ring-width=5 \
